@@ -1,10 +1,80 @@
-# Getting Started with Create React App
+# 📕 Library Management using ReactJS and Flask of Python 📚
+
+🌟Implemented a Book Library Management portal app where, the user's can manage their books collections and maintain a library of books.
+
+![home](https://user-images.githubusercontent.com/88725274/201195374-8755432d-ae2d-4b5e-9d29-3dc230b43032.jpg)
+
+👆Home Page of the App👆
+
+🌟The use of React as primary Front-end and Back-end Server with Flask has been done to develop the web app.
+
+## 🌟The Functionalities users can implement are:
+
+### ✅ Create a portal to manage books.
+
+### ✅ View a Feed of all available books.
+
+### ✅ View Books with category fields like title, author name, genre, rating & copies available.
+
+![books](https://user-images.githubusercontent.com/88725274/201196066-425ba46a-bf07-449b-b8ae-0e11becc39aa.jpg)
+
+👆Catalogue of Books available👆
+
+### ✅ Add a new Book entry with all above categories to the database.
+
+![add](https://user-images.githubusercontent.com/88725274/201196190-1d480e9d-9829-4135-bc40-53ded5264453.jpg)
+
+👆Add a new Book entry👆
+
+### ✅ Search a particular book using the title of the book as a query.
+
+![search](https://user-images.githubusercontent.com/88725274/201196287-6557fb62-9b99-4979-91b6-272c799dcde3.jpg)
+
+👆Search a Book👆
+
+### ✅ Issue a Book from the list of available books
+
+![issue](https://user-images.githubusercontent.com/88725274/201196526-bb052a3b-180b-41f0-b9a8-a6c363cae0bb.jpg)
+
+👆Issue a copy of Book👆
+
+### ✅ Edit number of Copies Availabe of a Book
+
+![edit](https://user-images.githubusercontent.com/88725274/201196438-e7d6adfb-96a1-420a-93cf-da8c1a23f8ef.jpg)
+
+👆Edit number of copies of Book👆
+
+### ✅ Delete or remove a particular book from the list of books.
+
+![delete](https://user-images.githubusercontent.com/88725274/201196885-3ad12c1f-c2ca-434b-b70d-3b2a08dcb011.jpg)
+
+👆Delete a Book from Database👆
+
+## 👨‍💻Technologies Used:
+
+#### 🌟For Front-End:
+
+👉HTML, CSS: For Structure and Design Layout of Web Pages on App.
+
+👉Bootstrap: For creating responsive Web pages and web components.
+
+👉React: For app development and server side rendering.
+
+#### 🌟 For Back-End:
+
+👉Flask: For developing and maintaining the Server.
+
+👉SQLite: Database for maintaining Books record.
+
+## ⬇Instructions to Implement Front-end Web App:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
 In the project directory, you can run:
+
+### `npm install`
+
+Install the required dependacies and packages. 
 
 ### `npm start`
 
@@ -14,57 +84,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## ⬇Instructions to Implement Back-end Server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the project directory, run:
 
-### `npm run build`
+### `$pip install -a`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install all the required dependacies and packages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `flask run` or `app.run()`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Runs the server in development mode.\
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The server is hosted on [http://localhost:5000](http://localhost:5000).
+Where, you can view the requests and route calls made from front-end to back-end.\
+You may also see any errors in flask console.
